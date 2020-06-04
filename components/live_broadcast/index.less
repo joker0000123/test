@@ -1,0 +1,51 @@
+.player-container{
+	height: 100%;
+	position: relative;
+}
+.video-player.vjs-custom-skin{
+	width: 100%;
+	height: 100%;
+	.video-js{
+		padding: 0;
+		height: 100%;
+	}
+}
+.video-js{
+	background: #fff;
+}
+.vjs-error .vjs-error-display .vjs-modal-dialog-content{
+	display: none;
+}
+.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar,.vjs-has-started .vjs-control-bar{
+	display: none !important;
+	transition: none !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
+}
+.vjs-icon-placeholder{
+	line-height: 2em;
+}
+.vjs-time-control.vjs-time-divider div,.vjs-live-display{
+	line-height: 40px;
+}
+.vjs-play-control.vjs-control.vjs-button,.vjs-mute-control.vjs-control,.vjs-fullscreen-control.vjs-control.vjs-button{
+	background: transparent;
+	border: none;
+	outline: none;
+}
+.video-js .vjs-big-play-button{
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	border-radius: 1em;
+	border: 0;
+}
+.vjs-custom-skin > .video-js .vjs-big-play-button{
+	margin-left: -1em;
+}
+.vjs-icon-placeholder{
+	color: #fff;
+}
+.video-js:hover .vjs-big-play-button,.vjs-big-play-button,.vjs-big-play-button:hover{
+	background: rgba(0,0,0,0.6);
+}
